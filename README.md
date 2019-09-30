@@ -26,3 +26,10 @@ AWS configuration at runtime, you can do this:
 $ cfnex --profile PROFILE --region REGION "dev:route53:domain-name"
 example.com
 ```
+
+## Installation
+
+Go to the [Releases](releases) page and download the latest version to
+your computer.  Unzip/untar the download and put the binary on your path.
+
+There are no other system dependencies needed to run this binary.
