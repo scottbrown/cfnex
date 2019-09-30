@@ -12,3 +12,6 @@ build:
 format:
 	go fmt ./...
 
+clean:
+	rm -rf $(build.dir)
+
