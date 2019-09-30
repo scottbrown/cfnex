@@ -29,7 +29,8 @@ example.com
 
 ## Installation
 
-Go to the [Releases](releases) page and download the latest version to
-your computer.  Unzip/untar the download and put the binary on your path.
+Go to the [Releases](https://github.com/scottbrown/cfnex/releases) page
+and download the latest version to your computer.  Unzip/untar the
+download and put the binary on your path.
 
 There are no other system dependencies needed to run this binary.
