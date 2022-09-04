@@ -27,6 +27,10 @@ dist.darwin.file      := $(dist.dir)/$(dist.darwin.filename)
 .PHONY: build
 build: build-linux build-windows build-darwin
 
+.PHONY: test
+test:
+	go test ./...
+
 .PHONY: build-linux
 build-linux:
 	GOOS=linux GOARCH=amd64 go build -o $(build.linux.file) $(pkg)
